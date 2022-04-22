@@ -1,6 +1,8 @@
-#portfolio pour montrer compétence 2022
+##portfolio pour montrer compétence 2022
+L'idée générale est de monter une application, comportant la portion serveur et client en javascript
 
-
+Base de donnée Mysql, Express
+Coté client: React.jss
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
