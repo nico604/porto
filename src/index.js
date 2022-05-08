@@ -1,13 +1,9 @@
 import React, { PureComponent } from "react";
-
 import ReactDOM from 'react-dom/client';
-
 import { GameEngine } from "react-game-engine";
 import { Box } from "./renderers";
 import { MoveBox } from "./systems"
 import Bienvenue from "./components/Bienvenue/Bienvenue";
-
-
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,11 +19,7 @@ root.render(
         }}>
          <Bienvenue nom="Nathan" age={27} occupation="Dj" />
          <Bienvenue nom="Tristan" age={32} occupation="Star" />
-
       </GameEngine>
-
-
-
 );
 
 // If you want to start measuring performance in your app, pass a function

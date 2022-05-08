@@ -1,11 +1,13 @@
 .Bienvenue {
 	border-radius: 10px;
 	padding: 1em;
-	border:  2px solid white;
-	width: 10%;
+	border:  10px solid #8a4848;
+	width: 25%;
+	margin: 1em;
 }
 
 
 h6{
 	color: black;
+	font-weight: bold;
 }
