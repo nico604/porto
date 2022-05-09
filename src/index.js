@@ -4,6 +4,9 @@ import { GameEngine } from "react-game-engine";
 import { Box } from "./renderers";
 import { MoveBox } from "./systems"
 import Bienvenue from "./components/Bienvenue/Bienvenue";
+import moi1 from './assets/sprite1.gif';
+import moi2 from './assets/sprite2.gif';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,8 +20,8 @@ root.render(
           //-- is supplied with the entity - it won't get displayed.
           box1: { x: 200,  y: 200, renderer: <Box />}
         }}>
-         <Bienvenue nom="Nathan" age={27} occupation="Dj" />
-         <Bienvenue nom="Tristan" age={32} occupation="Star" />
+         <Bienvenue nom="Nathan" age={27} occupation="Dj" img={moi1}/>
+         <Bienvenue nom="Tristan" age={32} occupation="Star" img={moi2} />
       </GameEngine>
 );
 
