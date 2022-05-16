@@ -18,13 +18,13 @@ code {
   text-align: -webkit-center;
 }
 #ecranPremier{
-  margin-top: 18%;
   padding: 2em;
   text-align: -webkit-center;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   width: 24em;  
   border-radius: 8px;
+  margin: 15em;
 }
 
 #ecranPremier h1{
