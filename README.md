@@ -1,3 +1,6 @@
+
+![This is an image](./src/assets/side.png)
+
 ##portfolio pour montrer compétence 2022
 L'idée générale est de monter une application, comportant la portion serveur et client en javascript
 

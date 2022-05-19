@@ -18,16 +18,18 @@ export default function Login(){
   const [password,setPassword] = useState("");
 
   function validateForm() {
-    if(password !='allo'){
-      console.log("oop");
+    if(password ==='allo'){
+      return user.length > 0 && password.length > 0;
     }
-    return user.length > 0 && password.length > 0;
   }
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log(user);
-    console.log(password);
+    const  userr  = user;
+    const  pass  = password;
+      if (userr && userr.trim() && pass && pass.trim()) {
+        localStorage.setItem('token', '123');
+      }
   }
 
   return(
