@@ -1,15 +1,10 @@
 import React from "react";
 import Sprite from ".././2_sprite";
-import Tile from ".././1_tile";
+//import Tile from ".././1_tile";
 import sideAnimation from ".././assets/side.png";
 import { Button } from 'reactstrap';
 
 const tile = { width: 20, height: 24 };
-
-function entrerApp() {
-  alert('Ok allé go!');
-}
-
 
 function EcranPremier(props){
 return(

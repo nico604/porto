@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Jumbotron } from 'reactstrap'
+//import { Container, Jumbotron } from 'reactstrap'
 
 const Header = () => {
   return (
@@ -10,10 +10,10 @@ const Header = () => {
         <img
           src="https://bootstrapmade.com/demo/themes/eStartup/img/hero-img.png"
           className=""
-          alt=""
+          alt="phoyo#"
         />
         <div className="intro-button">
-          <a href="">Get Started</a>
+          <a href="/">Get Started</a>
         </div>
         <div className="company-icons">
           <span className="company-icons__item">

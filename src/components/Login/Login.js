@@ -1,16 +1,13 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import styles from './Login.module.css';
 import { Form, Input, FormGroup, Button } from 'reactstrap';
 import styled from "styled-components";
-
-
 
 const Container = styled.div`
   height: 50px;
   padding: 3em;
 `;
-
 
 export default function Login(){
   
