@@ -7,7 +7,7 @@ L'idée générale est de monter une application, comportant la portion serveur 
 Base de donnée Mysql, Express
 Coté client: React.jss
 
-![This is an image](./src/assets/sneakpeak.png =600px )
+<img src="./src/assets/sneakpeak.png" width="800" />
 
 
 
