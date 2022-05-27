@@ -7,8 +7,12 @@ L'idée générale est de monter une application, comportant la portion serveur 
 Base de donnée Mysql, Express
 Coté client: React.jss
 
-À implémenter: 
+![This is an image](./src/assets/sneakpeak.png =600px )
 
+
+
+
+À implémenter: 
 
 Pauffiner DIscog API
 Persister dans Localstorage et login en consequence
