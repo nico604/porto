@@ -14,18 +14,21 @@ export default function ModalPop(props){
     const form = e.currentTarget
     const nom = form.elements.user.value
     if (nom === "Nicolas"){
-      console.log(nom);
+      //console.log(nom);
+      localStorage.setItem('user', JSON.stringify(nom));
       handleClose();
+
   }
 }
   const allo = (e) => {
+
   }
 
   return(
     <React.Fragment>
       <Modal isOpen={open}  toggle={() => setOpen(true)}  >
         <ModalHeader>
-          Biennvenue
+          Se connecter pour continuer
         </ModalHeader>
       
         <ModalBody>
@@ -33,8 +36,8 @@ export default function ModalPop(props){
         </ModalBody>
       
        <ModalFooter>
-        <Button variant="secondary" onClick={allo}>
-        Close Modal
+        <Button variant="secondary" onClick={allo} style={{fontSize : "0,8em"}}>
+        Je ne connais pas les infos pour se logger
         </Button>
         </ModalFooter> 
 
