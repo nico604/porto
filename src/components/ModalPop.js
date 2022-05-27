@@ -1,7 +1,5 @@
 import React, { useState,  } from 'react';
-//import PropTypes from 'prop-types';
 import { Modal, ModalBody, ModalHeader, ModalFooter, Button } from 'reactstrap';
-//import styled from "styled-components";
 import Login from  "./Login/Login";
 
 
@@ -11,10 +9,16 @@ export default function ModalPop(props){
   const handleClose = () => setOpen(false);
   const handleShow = () => setOpen(true);
 
-  function handleSubmit(event) {
-   event.preventDefault();
-   console.log("event close");
-   handleClose();
+  const onLoginSubmit = (e) => {
+    e.preventDefault();
+    const form = e.currentTarget
+    const nom = form.elements.user.value
+    if (nom === "Nicolas"){
+      console.log(nom);
+      handleClose();
+  }
+}
+  const allo = (e) => {
   }
 
   return(
@@ -25,11 +29,11 @@ export default function ModalPop(props){
         </ModalHeader>
       
         <ModalBody>
-        <Login onSubmit={handleSubmit} />
+          <Login onSubmit={onLoginSubmit} />
         </ModalBody>
       
        <ModalFooter>
-        <Button variant="secondary" onClick={handleClose}>
+        <Button variant="secondary" onClick={allo}>
         Close Modal
         </Button>
         </ModalFooter> 

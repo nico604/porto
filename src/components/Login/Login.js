@@ -2,21 +2,21 @@ import React, { useState,  } from 'react';
 import styles from './Login.module.css';
 import { Form, Input, FormGroup, Button } from 'reactstrap';
 
-const Login = ({handleSubmit}) => {
+const Login = ({ onSubmit }) => {
 
 
   const [user, setUser] = useState("");
   const [password,setPassword] = useState("");
 
   function validateForm() {
-    if(password ==='allo'){
+    if(password ==='ciment'){
       return user.length > 0 && password.length > 0;
     }
   }
 
   return(
 
-    <Form onSubmit={handleSubmit} className={styles.Login} data-testid="Login" >
+    <Form onSubmit={onSubmit} className={styles.Login} data-testid="Login" >
       <FormGroup>
         <Input 
           id="user"
