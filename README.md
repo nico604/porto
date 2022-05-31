@@ -4,27 +4,24 @@
 ##portfolio pour montrer compétence 2022
 L'idée générale est de monter une application, comportant la portion serveur et client en javascript
 
-Base de donnée Mysql, Express
-Coté client: React.jss
+ [Le serveur de l'application](https://github.com/nico604/server).
+
+Base de donnée Mysql (sqlite en ce moment)
+Serveur et middleware Express
+
+L'application est monté sur React 18 avec creat-react-app
 
 <img src="./src/assets/sneakpeak.png" width="800" />
 
-
-
-
 À implémenter: 
 
-Pauffiner DIscog API
-Persister dans Localstorage et login en consequence
-Vrai comparaison de password avec connection serveur
+Peaufiner réponse de Discog API pour afficher ma collection de vinyl.
 
+Login avec serveur avec Passport.js
 
-login et login coté serveur avec Mysql et node.
-form et validation
+Simili-jeux avec react-game-engine
 
-Dans la section Écran:
-
-Api Discog
+Utiliser l'api de Facebook
 
 In the project directory, you can run:
 
